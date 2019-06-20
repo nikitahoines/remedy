@@ -1,0 +1,173 @@
+
+/* front page classes */
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-header {
+    font-size: 78px;
+    color: white;
+}
+
+.main-paragraph {
+    color: 666666;
+    justify-content: center;
+}
+
+.main-block {
+    align-items: center;
+}
+
+/* end of front page classes */
+
+.wp-block-columns .has-2-columns {
+    align-content: center;
+}
+
+.about-content>p {
+    padding-right: 14%;
+}
+
+.content-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+
+.white-body {
+    background-color: white;
+    /*border-radius: 15px;*/
+}
+
+h4 {
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.white-header {
+    color: #ffffff;
+    position: relative;
+    top: 42%;
+}
+
+.my-menu {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    background-color: darkgoldenrod;
+    /*background-color: black;*/
+}
+
+.my-menu, li {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.my-menu, a {
+    text-decoration: none;
+    font-family: Arial;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.my-menu a:hover {
+    text-decoration: underline;
+}
+.block.menu-style {
+    width:60%;
+    margin:0 auto;
+}
+
+.margin-price {
+    margin-left: 230px;
+}
+
+.centered-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: relative; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    
+}
+
+.block-background {
+    /*background-color: gray;*/
+    background-color: darkgoldenrod;
+    padding: 5%;
+    border-radius: 10px;
+    color: white;
+}
+
+#menu-social-menu {
+    background-color: darkgoldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 0;
+}
+
+#menu-social-menu li {
+    padding: 10px;
+}
+
+.my-menu a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.col ul li a {
+    color: darkgoldenrod;
+}
+
+@media (min-width: 300px){
+    .wp-block-columns {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 500px){
+    .wpcf7-text, .wpcf7-textarea{
+        border-radius: 10px;
+    }
+}
+.wpcf7-text, .wpcf7-textarea{
+        max-width: 75%;
+    }
+
+.description {
+font-weight: lighter;
+}
+
+label {
+    font-weight: 600;
+}
+
+.menu-image{
+    filter: grayscale(100%);
+}
+
+.menu-image:hover {
+    filter: grayscale(0%);
+}
